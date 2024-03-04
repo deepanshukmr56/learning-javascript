@@ -10,7 +10,7 @@
 console.log(null > 0);
 console.log(null == 0);
 console.log(null >= 0);
-//in the case og null the js sometimes treat as nan and sometime as 0.
+//in the case of null the js sometimes treat as nan and sometime as 0.
 
 
 // console.log("2" > 1);
