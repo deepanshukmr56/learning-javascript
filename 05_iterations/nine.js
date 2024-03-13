@@ -33,3 +33,4 @@ const shoppingCart = [
 
 let priceTopPay = shoppingCart.reduce( (accumulator, item) => accumulator + item.price, 0 )
 console.log(priceTopPay);
+// the above code is an example of reduce method 
