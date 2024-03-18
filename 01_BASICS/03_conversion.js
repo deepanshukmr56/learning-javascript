@@ -25,7 +25,30 @@
 // console.log(typeof(container));
 // console.log(container);
 
-let num = "16"
-let num2 = Number(num)
-console.log(num2);
-console.log(typeof num2);
+// let num = "16"
+// let num2 = Number(num)
+// console.log(num2);
+// console.log(typeof num2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let a = "1"
+// let b = "1"
+// let c = "2"
+// let d = Number(a)
+// let e = Number(b)
+// let f = Number(c)
+// let g = (d + e + f)
+// console.log(g);
+// console.log(typeof g);
+//the above code shows the string converted to a number first and after that arthmetic operation is been applied
