@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM basics</title>
+    <style>
+        .bg-black{
+            background-color: #141313;
+            color: blanchedalmond;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div>
+        <h1 class="title" id="header">DOM learning</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <ul>
+        <li class="listIsHere">list items</li>
+        <li class="listIsHere">list items</li>
+        <li class="listIsHere">list items</li>
+    </ul>
+</body>
+</html>
+
+
+
+
+
+<!-- 
+// so for this code we practicing DOM in console of web browser 
+// i studied about getElementById as the name says itself we can bring an element by its id 
+//document.getElementById("header")
+// the above code is for our this html file. on entering we'll get => <h1 class="title" id="header ">DOM learning</h1> -->
+
+
+
+<!-- //document.getElementsByClassName('title")
+//we can also get the element by its classname for the above code we'll get the html collection and perform different functions on it -->
+
+
+
+<!-- 
+document.querySelector('#header')
+<h1 class=​"title" id=​"header">​DOM learning​</h1>​
+queryselector is called the same way as we apply style to elements in css
+and queryselector only applied on the first element of that type if u r having multiple h1 tag then its only works on 1st h1 tag  -->
+
+
+
+<!-- 
+let list = document.querySelector("li")
+// in the above code we are storing value of queryselector of "li" in variable named "list"
+// list.style.backgroundColor = ("wheat")
+// the above code is demostrating how we can apply different methods on different elements. the above is going to change the background-color of the first li element. -->
+
+
+
+<!-- 
+let list_i = document.querySelectorAll("li")
+//using the above code we can apply color to mutliple li at once 
+// after using .querySelectorAll we are now storing values of li in list_i
+// and now we are going to use foreach to apply different properties to multiple element at once
+list_i.forEach( (li) => {
+    li.style.color = ("red")
+})
+//this code performs a loop and apply color red to all li -->
+
+
+
+
+
+<!-- // document.getElementsByClassName("listIsHere")
+// the getelementbyclassname gives the output in htmlcollection and it dont have foreach or map like nodelist 
+// so we need to first convert it into an array and after that we can perform some loop on it.
+// let convert = document.getElementsByClassName("listIsHere")
+// we are storing the class value in "convert" variable
+// Array.from(convert)
+// the above code convert it from htmlcollection into an array  
+//myConvertedArray.forEach ( (li) => {
+    li.style.color = ("wheat")
+})
+// the above code is a coverted array and now we are able to perform functions like map foreach...-->
+
+
+
+
+
