@@ -19,13 +19,26 @@
         document.querySelector(".codingLang").appendChild(li)
     }
     addLang("java")
-    
+    addLang("javascript")
+    addLang("c++")
 
+//edit
     const secondLi = document.querySelector("li:nth-child(2)")
     // secondLi.innerHTML = "deno"
     let newli = document.createElement("li")
     newli.textContent = "mojo"
     secondLi.replaceWith(newli)
     
+
+    //edit
+    const firstLang = document.querySelector("li:first-child")
+    // console.log(firstLang);
+    firstLang.outerHTML = "<li>typescript</li>" // this time we are changing the value of 1st language using outerHTML
+
+
+    //remove
+    const lastLang = document.querySelector("li:last-child")
+    lastLang.remove()   // this is used to delete some element
+
 </script>
 </html>
